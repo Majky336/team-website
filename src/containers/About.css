@@ -1,0 +1,15 @@
+.about-text-container {
+  font-size: 22px;
+  text-align: left;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.about-container {
+  background-color: #5bad84;
+  padding: 130px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

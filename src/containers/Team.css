@@ -1,0 +1,11 @@
+.team-container {
+  background-color: #ffffff;
+  padding: 130px 80px;
+}
+
+.member-section-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,17 @@
+.button-container {
+  font-size: 18px;
+  padding: 20px 75px;
+  border-radius: 65px;
+  outline: none;
+  background-color: #ffffff;
+  border-color: transparent;
+  color: #9c2061;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-container:hover {
+  border-color: #9c2061;
+  color: #ffffff;
+  background-color: #9c2061;
+}

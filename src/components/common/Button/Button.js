@@ -1,0 +1,17 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
+import './Button.css';
+
+const Button = ({ label, onClick }) => (
+  <button className="button-container" onClick={onClick}>
+    {label}
+  </button>
+);
+
+Button.propTypes = {
+  label: PropTypes.string.isRequired,
+  onClick: PropTypes.bool.isRequired,
+};
+
+export default Button;
