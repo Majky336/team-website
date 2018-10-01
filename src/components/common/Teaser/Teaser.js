@@ -35,6 +35,7 @@ Teaser.propTypes = {
   firstName: PropTypes.string.isRequired,
   lastName: PropTypes.string.isRequired,
   position: PropTypes.string.isRequired,
+  photo: PropTypes.string,
 };
 
 export default Teaser;

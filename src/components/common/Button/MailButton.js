@@ -11,7 +11,7 @@ const MailButton = ({ label, href }) => (
 
 MailButton.propTypes = {
   label: PropTypes.string.isRequired,
-  href: PropTypes.bool.isRequired,
+  href: PropTypes.string.isRequired,
 };
 
 export default MailButton;

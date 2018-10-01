@@ -1,0 +1,9 @@
+td {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+tr:hover > td {
+  background-color: #f6f6f6;
+  cursor: pointer;
+}

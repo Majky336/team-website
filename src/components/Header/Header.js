@@ -1,13 +1,27 @@
 import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
+import { scroller } from 'react-scroll';
 import { withRouter } from 'react-router';
 
+import NavButton from './NavButton';
 import NavItem from './NaviItem';
 import './Header.css';
 
 import logo from '../../assets/logo.png';
 
 class Header extends Component {
+  scrollToZapisnice = () =>
+    scroller.scrollTo('zapisnice-table', {
+      duration: 1000,
+      smooth: 'easeInOutQuart',
+    });
+
+  scrollToDokumenty = () =>
+    scroller.scrollTo('dokumenty-table', {
+      duration: 1000,
+      smooth: 'easeInOutQuart',
+    });
+
   renderNavItems = () => {
     const { location } = this.props;
     const { pathname } = location || {};
@@ -15,6 +29,8 @@ class Header extends Component {
     if (pathname === '/documents') {
       return (
         <Fragment>
+          <NavButton label="Zápisnice" onClick={this.scrollToZapisnice} />
+          <NavButton label="Dokumenty" onClick={this.scrollToDokumenty} />
           <NavItem pathname={pathname} to="/" label="Domov" id="about" />
         </Fragment>
       );
