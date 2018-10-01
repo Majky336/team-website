@@ -11,56 +11,65 @@ const teamMembers = [
   {
     firstName: 'Tomáš',
     lastName: 'Bende',
-    position: 'Backend developer',
+    position: 'Lead Tester',
     email: 'xbende@stuba.sk',
+    photo: require('../assets/boris_fotka.jpg')
   },
   {
     firstName: 'Veronika',
     lastName: 'Búcsiová',
-    position: 'Web designer',
+    position: 'Scrum Master',
     email: 'xbucsiova@stuba.sk',
+    photo: require('../assets/boris_fotka.jpg')
   },
   {
     firstName: 'Veronika',
     lastName: 'Horniczká',
-    position: 'Backend developer',
+    position: 'Lead Designer',
     email: 'xhorniczka@stuba.sk',
+    photo: require('../assets/boris_fotka.jpg')
   },
   {
     firstName: 'Jozef',
     lastName: 'Melicherčík',
-    position: 'Backend developer',
+    position: 'Lead Architect',
     email: ' xmelichercik@stuba.sk',
+    photo: require('../assets/jozef_fotka.jpg')
   },
   {
     firstName: 'Marek',
     lastName: 'Pacher',
-    position: 'Backend developer',
+    position: 'Lead Backend Developer',
     email: 'xpacherm@stuba.sk',
+    photo: require('../assets/boris_fotka.jpg')
   },
   {
     firstName: 'Filip',
     lastName: 'Pavkovček',
-    position: 'Backend developer',
+    position: 'Lead Git Manager',
     email: 'xpavkovcek@stuba.sk',
+    photo: require('../assets/filip_fotka.jpg')
   },
   {
     firstName: 'Boris',
     lastName: 'Slíž',
-    position: 'Backend developer',
+    position: 'Lead Database Specialist',
     email: 'xsliz@stuba.sk',
+    photo: require('../assets/boris_fotka.jpg')
   },
   {
     firstName: 'Michal',
     lastName: 'Sojka',
-    position: 'Frontend developer',
+    position: 'Lead Frontend Developer',
     email: 'xsojkam@stuba.sk',
+    photo: require('../assets/michal_fotka.jpg')
   },
   {
     firstName: 'Ján',
     lastName: 'Lang',
-    position: 'Vedúci tímu',
+    position: 'Team Leader',
     email: 'xlang@stuba.sk',
+    photo: require('../assets/lang_fotka.jpeg')
   },
 ];
 
@@ -88,7 +97,7 @@ class Team extends Component {
           <SectionHeader label="Členovia tímu" />
           <div className="member-section-container">
             {teamMembers.map((member, index) => {
-              const { firstName, lastName, position, email } = member || {};
+              const { firstName, lastName, position, email, photo } = member || {};
 
               return (
                 <Teaser
@@ -97,6 +106,7 @@ class Team extends Component {
                   lastName={lastName}
                   position={position}
                   email={email}
+                  photo={photo}
                 />
               );
             })}

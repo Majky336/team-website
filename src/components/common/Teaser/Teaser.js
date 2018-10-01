@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import img from '../../../assets/lang.jpeg';
 import './Teaser.css';
 
 class Teaser extends Component {
   render() {
-    const { email, firstName, lastName, position } = this.props;
+    const { email, firstName, lastName, position, photo } = this.props;
 
     return (
       <div className="Teaser">
@@ -14,7 +13,7 @@ class Teaser extends Component {
           <div className="ImageWrap">
             <img
               className="TeaserImage"
-              src={img}
+              src={photo}
               alt={`${firstName} ${lastName}`}
             />
           </div>
