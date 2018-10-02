@@ -13,7 +13,7 @@ const teamMembers = [
     lastName: 'Bende',
     position: 'Lead Tester',
     email: 'xbende@stuba.sk',
-    photo: require('../assets/boris_fotka.jpg'),
+    photo: require('../assets/tomas_fotka.jpg'),
   },
   {
     firstName: 'Veronika',
