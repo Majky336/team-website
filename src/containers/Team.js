@@ -27,7 +27,7 @@ const teamMembers = [
     lastName: 'Horniczká',
     position: 'Lead Designer',
     email: 'xhorniczka@stuba.sk',
-    photo: require('../assets/boris_fotka.jpg'),
+    photo: require('../assets/veronikaH_fotka.jpg'),
   },
   {
     firstName: 'Jozef',
