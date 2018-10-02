@@ -19,6 +19,15 @@
   justify-content: flex-end;
 }
 
+@media only screen and (max-width: 576px) {
+  .header-container {
+    flex-direction: column;
+  }
+  .navigation-container {
+    flex-direction: column;
+  }
+}
+
 .nav-item {
   padding: 30px;
   color: #333c45;
