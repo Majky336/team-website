@@ -1,6 +1,9 @@
 .contact-container {
   background-color: #5bad84;
   padding: 130px 80px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .contact-button-container {
