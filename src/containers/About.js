@@ -32,67 +32,39 @@ class About extends Component {
     return (
       <Element name="about">
         <div className="about-container">
-          <SectionHeader label="O projekte" white />
+          <SectionHeader label="Databanka otázok a úloh" white />
           <div className="about-text-container">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec
-              enim ac massa suscipit iaculis eu non ligula. Aliquam aliquet elit
-              ut sem convallis, et aliquam nibh vestibulum. Proin sit amet dui
-              in neque molestie aliquet. Maecenas faucibus, felis ut lacinia
-              hendrerit, mi ligula pharetra est, vel mattis nulla velit id
-              ligula. Aliquam aliquam dui eget mi laoreet, ut ullamcorper dolor
-              volutpat. Aliquam erat volutpat. Integer condimentum sapien vitae
-              consequat dignissim. Phasellus imperdiet dolor at arcu egestas, et
-              ultricies erat cursus.
+              Cieľom projektu je vytvorenie infraštruktúry pre podporu
+              spolupráce pri identifikovaní základného učiva viazaného pre
+              konkrétne kvalifikácie z národnej sústavy kvalifikácií, jeho
+              zdieľanie, používanie, integráciu do existujúceho procesu
+              vzdelávania tak aby táto integrácia umožnila podporiť rozvoj
+              vedomostí, zručností a návykov pre väčšie skupiny. V rámci
+              projektu navrhneme a zrealizujeme webové nástroje na spoločnú
+              identifikáciu otázok a úloh (udalostí).
             </p>
 
             <p>
-              Suspendisse ornare nisi vitae tincidunt consequat. Aenean non
-              mauris ac enim hendrerit gravida. Nunc nunc nibh, auctor a eros
-              quis, ultrices aliquam massa. Sed egestas felis nec orci aliquam
-              laoreet. Fusce egestas varius gravida. Phasellus quis erat eu nisl
-              pharetra eleifend. Quisque faucibus luctus ligula vitae pretium.
-              Aenean a venenatis arcu. Maecenas vel placerat nulla. Etiam et
-              mattis turpis.
+              Prostredníctvom týchto udalostí aj pre im zodpovedajúce riešenia a
+              postupy determinujúce sledované poznanie v podobe vedomostí,
+              zručností a návykov. Kolektívna inteligencia je tu príležitosťou
+              na prirodzenú kultiváciu obsahu vzdelávania a vernejšie mapovanie
+              výsledku na kurikulom stanovené ciele. V rámci návrhu systému
+              nástrojov budeme postupovať v zmysle overených postupov a metodík
+              úspešne aplikovaných v softvérovom inžinierstve nakoľko vnímame
+              jeho významnú paralelu s obsahovým inžinierstvom.
             </p>
 
             <p>
-              In hac habitasse platea dictumst. Morbi a auctor nunc, at luctus
-              tellus. Pellentesque habitant morbi tristique senectus et netus et
-              malesuada fames ac turpis egestas. Suspendisse nec arcu a sapien
-              posuere gravida. Curabitur eu ultricies ex. Maecenas quam felis,
-              ornare eu dapibus eget, pellentesque ut dui. Ut sagittis nulla
-              enim, vitae lacinia tortor imperdiet in. Quisque vitae felis sed
-              mauris tincidunt malesuada.
-            </p>
-
-            <p>
-              Sed elementum turpis turpis, at elementum lorem egestas sed. Nulla
-              elementum, turpis vitae aliquet fermentum, elit libero pharetra
-              eros, a aliquet lacus elit ac lorem. Nunc iaculis eleifend luctus.
-              In accumsan sapien ac risus condimentum commodo. Ut vel metus
-              maximus orci dignissim sodales id id justo. Integer non neque leo.
-              Proin sit amet pretium lectus. Vestibulum ac lacus ultricies nisl
-              tempus suscipit. Mauris pellentesque placerat arcu, a suscipit
-              velit laoreet eu. Integer viverra enim at lacus vestibulum, ut
-              ornare leo tempus. Etiam euismod bibendum rutrum. Vivamus quis
-              nunc et libero mollis tempor. Phasellus et diam scelerisque,
-              maximus nulla eu, iaculis augue. Fusce a ante quis magna rhoncus
-              cursus.
-            </p>
-
-            <p>
-              Fusce ultricies arcu quis elit eleifend sollicitudin. Fusce et
-              tempus odio. Duis interdum viverra ipsum, egestas bibendum ante
-              rhoncus sed. Pellentesque scelerisque interdum est, sit amet
-              imperdiet massa luctus sed. Sed ac diam urna. Vestibulum a est
-              ligula. In consectetur ac sapien finibus accumsan. Mauris mattis
-              sit amet libero ac scelerisque. Aliquam sem magna, porttitor at
-              dictum ac, rhoncus in nibh. Fusce ultrices metus sed finibus
-              pellentesque. Proin at nibh maximus nisi semper pulvinar at quis
-              est. Sed mollis congue mattis. Integer facilisis sem est, non
-              commodo enim hendrerit at. Integer eu venenatis felis. Donec et
-              metus vitae ipsum rhoncus placerat a id ante.
+              Náš prístup budeme konfrontovať s už existujúcimi vzdelávacími
+              systémami a aj takými ktoré boli a sú vyvíjané na našej fakulte. Z
+              implementačného hľadiska vytvoríme inteligentné prostredie na
+              podporu dištančných ako aj prezenčných foriem výučby na báze
+              on-line prístupu s podporou multimediálnej reprezentácie
+              interpretácie obsahu. Implementované prostredie podporí formovanie
+              virtuálnych komunít doménovo špecifických a integráciu
+              distribuovaného obsahu vzdelávania aj v medzinárodnom meradle.
             </p>
           </div>
           <Button label="Dilema" onClick={this.navigateToWebApp} />
