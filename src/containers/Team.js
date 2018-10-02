@@ -41,7 +41,7 @@ const teamMembers = [
     lastName: 'Pacher',
     position: 'Lead Backend Developer',
     email: 'xpacherm@stuba.sk',
-    photo: require('../assets/boris_fotka.jpg'),
+    photo: require('../assets/marek_fotka.jpg'),
   },
   {
     firstName: 'Filip',

@@ -22,6 +22,8 @@
 @media only screen and (max-width: 576px) {
   .header-container {
     flex-direction: column;
+    position: relative;
+    padding-top: 30px;
   }
   .navigation-container {
     flex-direction: column;
