@@ -13,63 +13,63 @@ const teamMembers = [
     lastName: 'Bende',
     position: 'Lead Tester',
     email: 'xbende@stuba.sk',
-    photo: require('../assets/boris_fotka.jpg')
+    photo: require('../assets/boris_fotka.jpg'),
   },
   {
     firstName: 'Veronika',
     lastName: 'Búcsiová',
     position: 'Scrum Master',
     email: 'xbucsiova@stuba.sk',
-    photo: require('../assets/boris_fotka.jpg')
+    photo: require('../assets/veronikaB_fotka.jpg'),
   },
   {
     firstName: 'Veronika',
     lastName: 'Horniczká',
     position: 'Lead Designer',
     email: 'xhorniczka@stuba.sk',
-    photo: require('../assets/boris_fotka.jpg')
+    photo: require('../assets/boris_fotka.jpg'),
   },
   {
     firstName: 'Jozef',
     lastName: 'Melicherčík',
     position: 'Lead Architect',
     email: ' xmelichercik@stuba.sk',
-    photo: require('../assets/jozef_fotka.jpg')
+    photo: require('../assets/jozef_fotka.jpg'),
   },
   {
     firstName: 'Marek',
     lastName: 'Pacher',
     position: 'Lead Backend Developer',
     email: 'xpacherm@stuba.sk',
-    photo: require('../assets/boris_fotka.jpg')
+    photo: require('../assets/boris_fotka.jpg'),
   },
   {
     firstName: 'Filip',
     lastName: 'Pavkovček',
     position: 'Lead Git Manager',
     email: 'xpavkovcek@stuba.sk',
-    photo: require('../assets/filip_fotka.jpg')
+    photo: require('../assets/filip_fotka.jpg'),
   },
   {
     firstName: 'Boris',
     lastName: 'Slíž',
     position: 'Lead Database Specialist',
     email: 'xsliz@stuba.sk',
-    photo: require('../assets/boris_fotka.jpg')
+    photo: require('../assets/boris_fotka.jpg'),
   },
   {
     firstName: 'Michal',
     lastName: 'Sojka',
     position: 'Lead Frontend Developer',
     email: 'xsojkam@stuba.sk',
-    photo: require('../assets/michal_fotka.jpg')
+    photo: require('../assets/michal_fotka.jpg'),
   },
   {
     firstName: 'Ján',
     lastName: 'Lang',
     position: 'Team Leader',
     email: 'xlang@stuba.sk',
-    photo: require('../assets/lang_fotka.jpeg')
+    photo: require('../assets/lang_fotka.jpeg'),
   },
 ];
 
@@ -97,7 +97,8 @@ class Team extends Component {
           <SectionHeader label="Členovia tímu" />
           <div className="member-section-container">
             {teamMembers.map((member, index) => {
-              const { firstName, lastName, position, email, photo } = member || {};
+              const { firstName, lastName, position, email, photo } =
+                member || {};
 
               return (
                 <Teaser
