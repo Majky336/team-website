@@ -11,7 +11,7 @@ const teamMembers = [
   {
     firstName: 'Tomáš',
     lastName: 'Bende',
-    position: 'Lead Tester',
+    position: 'Lead Test Engineer',
     email: 'xbende@stuba.sk',
     photo: require('../assets/tomas_fotka.jpg'),
   },
