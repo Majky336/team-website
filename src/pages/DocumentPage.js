@@ -14,49 +14,27 @@ const headers = [
   {
     label: 'Dátum vzniku',
   },
+  {
+    label: 'Odkaz',
+  },
 ];
 
 const zapisniceItems = [
   {
     index: 1,
     name: '1. stretnutie',
-    date: '11.11.2012',
-    link: 'faggit',
+    date: '28.09.2018',
+    link: require('../assets/pdf/z1.pdf'),
   },
   {
     index: 2,
     name: '2. stretnutie',
-    date: '11.11.2012',
-    link: 'faggit',
-  },
-  {
-    index: 3,
-    name: '3. stretnutie',
-    date: '11.11.2012',
-    link: 'faggit',
+    date: '05.10.2018',
+    link: require('../assets/pdf/z2.pdf'),
   },
 ];
 
-const dokumentyItems = [
-  {
-    index: 1,
-    name: 'Technická dokumentácia',
-    date: '11.11.2012',
-    link: 'faggit',
-  },
-  {
-    index: 2,
-    name: 'Metodiky',
-    date: '11.11.2012',
-    link: 'faggit',
-  },
-  {
-    index: 3,
-    name: 'SCRUM',
-    date: '11.11.2012',
-    link: 'faggit',
-  },
-];
+const dokumentyItems = [];
 
 class DocumentPage extends Component {
   render() {
