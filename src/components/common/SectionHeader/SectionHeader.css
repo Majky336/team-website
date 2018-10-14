@@ -7,6 +7,12 @@
   text-transform: uppercase;
 }
 
+.wrap-text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .white {
   color: #ffffff;
 }
