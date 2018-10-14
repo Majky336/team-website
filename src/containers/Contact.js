@@ -28,7 +28,7 @@ class Contact extends Component {
     return (
       <Element name="contact">
         <div className="contact-container">
-          <SectionHeader label="Kontaktujte nás!" white wrapText />
+          <SectionHeader label="Kontaktujte nás!" white />
           <div className="contact-button-container">
             <MailButton
               label="Poslať email"

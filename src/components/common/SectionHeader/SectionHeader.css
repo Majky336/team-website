@@ -7,24 +7,6 @@
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 576px) {
-  .section-container {
-    font-size: 40px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .section-container {
-    font-size: 46px;
-  }
-}
-
-.wrap-text {
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
 .white {
   color: #ffffff;
 }
