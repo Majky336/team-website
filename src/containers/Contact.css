@@ -1,4 +1,6 @@
 .contact-container {
+  display: flex;
+  flex-direction: column;
   background-color: #5bad84;
   padding: 130px 80px;
   align-items: center;
