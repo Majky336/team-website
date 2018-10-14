@@ -33,12 +33,14 @@ class Table extends Component {
 
   render() {
     return (
-      <table>
-        <tbody>
-          <tr>{this.renderHeaders()}</tr>
-          {this.renderItems()}
-        </tbody>
-      </table>
+      <div className="table-container">
+        <table>
+          <tbody>
+            <tr>{this.renderHeaders()}</tr>
+            {this.renderItems()}
+          </tbody>
+        </table>
+      </div>
     );
   }
 }

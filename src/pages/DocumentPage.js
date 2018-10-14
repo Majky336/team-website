@@ -4,6 +4,8 @@ import { Element } from 'react-scroll';
 import SectionHeader from '../components/common/SectionHeader/SectionHeader';
 import Table from '../components/common/Table/Table';
 
+import './DocumentPage.css';
+
 const headers = [
   {
     label: '#',
@@ -39,7 +41,7 @@ const dokumentyItems = [];
 class DocumentPage extends Component {
   render() {
     return (
-      <div style={{ padding: '130px 180px' }}>
+      <div className="container">
         <Element name="zapisnice-table">
           <SectionHeader label="Zápisnice" />
           <Table headers={headers} items={zapisniceItems} />

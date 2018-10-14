@@ -3,3 +3,8 @@ table {
   margin-bottom: 100px;
   border-collapse: collapse;
 }
+
+.table-container {
+  width: auto;
+  overflow-x: auto;
+}
