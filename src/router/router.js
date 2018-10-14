@@ -11,24 +11,11 @@ const AppRouter = () => (
     <div>
       <Header />
       <Switch>
-        <Route
-          path="TeamProject/2018/team18iss-it/about"
-          component={MainPage}
-        />
-        <Route
-          path="TeamProject/2018/team18iss-it/contact"
-          component={MainPage}
-        />
-        <Route path="TeamProject/2018/team18iss-it/team" component={MainPage} />
-        <Route
-          path="TeamProject/2018/team18iss-it/documents"
-          component={DocumentPage}
-        />
-        <Route
-          exact
-          path="TeamProject/2018/team18iss-it/"
-          component={MainPage}
-        />
+        <Route path="/about" component={MainPage} />
+        <Route path="/contact" component={MainPage} />
+        <Route path="/team" component={MainPage} />
+        <Route path="/documents" component={DocumentPage} />
+        <Route exact path="/" component={MainPage} />
       </Switch>
       <Footer />
     </div>
