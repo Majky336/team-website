@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import './SectionHeader.css';
 
-const SectionHeader = ({ label, white, wrapText }) => {
+const SectionHeader = ({ label, white }) => {
   const color = white ? 'white' : 'black';
 
   return <div className={`section-container ${color}`}>{label}</div>;
@@ -12,7 +12,6 @@ const SectionHeader = ({ label, white, wrapText }) => {
 SectionHeader.propTypes = {
   label: PropTypes.string.isRequired,
   white: PropTypes.bool,
-  wrapText: PropTypes.bool,
 };
 
 export default SectionHeader;
