@@ -7,6 +7,8 @@ import Teaser from '../components/common/Teaser/Teaser';
 
 import './Team.css';
 
+import photo from '../assets/boris_fotka.jpg';
+
 const teamMembers = [
   {
     firstName: 'Tomáš',
@@ -97,8 +99,7 @@ class Team extends Component {
           <SectionHeader label="Členovia tímu" />
           <div className="member-section-container">
             {teamMembers.map((member, index) => {
-              const { firstName, lastName, position, email, photo } =
-                member || {};
+              const { firstName, lastName, position, email } = member || {};
 
               return (
                 <Teaser
