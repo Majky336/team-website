@@ -35,29 +35,25 @@ class Header extends Component {
         </Fragment>
       );
     }
+
     return (
       <Fragment>
         <NavItem
           pathname={pathname}
-          to={`${pathname}/about`}
+          to="/about"
           label="O projekte"
           id="about"
         />
+        <NavItem pathname={pathname} to="/team" label="Členovia" id="team" />
         <NavItem
           pathname={pathname}
-          to={`${pathname}/team`}
-          label="Členovia"
-          id="team"
-        />
-        <NavItem
-          pathname={pathname}
-          to={`${pathname}/contact`}
+          to="/contact"
           label="Kontakt"
           id="contact"
         />
         <NavItem
           pathname={pathname}
-          to={`${pathname}/documents`}
+          to="/documents"
           label="Dokumenty"
           id="documents"
         />
