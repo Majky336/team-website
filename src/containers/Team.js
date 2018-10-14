@@ -7,69 +7,79 @@ import Teaser from '../components/common/Teaser/Teaser';
 
 import './Team.css';
 
+import tomas from '../assets/tomas_fotka.jpg';
+import veronikaB from '../assets/veronikaB_fotka.jpg';
+import veronikaH from '../assets/veronikaH_fotka.jpg';
+import dodo from '../assets/jozef_fotka.jpg';
+import marek from '../assets/marek_fotka.jpg';
+import filip from '../assets/filip_fotka.jpg';
+import boris from '../assets/boris_fotka.jpg';
+import michal from '../assets/michal_fotka.jpg';
+import lang from '../assets/lang_fotka.jpeg';
+
 const teamMembers = [
   {
     firstName: 'Tomáš',
     lastName: 'Bende',
     position: 'Lead Test Engineer',
     email: 'xbende@stuba.sk',
-    photo: require('../assets/tomas_fotka.jpg'),
+    photo: tomas,
   },
   {
     firstName: 'Veronika',
     lastName: 'Búcsiová',
     position: 'Scrum Master',
     email: 'xbucsiova@stuba.sk',
-    photo: require('../assets/veronikaB_fotka.jpg'),
+    photo: veronikaB,
   },
   {
     firstName: 'Veronika',
     lastName: 'Horniczká',
     position: 'Lead Designer',
     email: 'xhorniczka@stuba.sk',
-    photo: require('../assets/veronikaH_fotka.jpg'),
+    photo: veronikaH,
   },
   {
     firstName: 'Jozef',
     lastName: 'Melicherčík',
     position: 'Lead Architect',
     email: ' xmelichercik@stuba.sk',
-    photo: require('../assets/jozef_fotka.jpg'),
+    photo: dodo,
   },
   {
     firstName: 'Marek',
     lastName: 'Pacher',
     position: 'Lead Backend Developer',
     email: 'xpacherm@stuba.sk',
-    photo: require('../assets/marek_fotka.jpg'),
+    photo: marek,
   },
   {
     firstName: 'Filip',
     lastName: 'Pavkovček',
     position: 'Lead Git Manager',
     email: 'xpavkovcek@stuba.sk',
-    photo: require('../assets/filip_fotka.jpg'),
+    photo: filip,
   },
   {
     firstName: 'Boris',
     lastName: 'Slíž',
     position: 'Lead Database Specialist',
     email: 'xsliz@stuba.sk',
-    photo: require('../assets/boris_fotka.jpg'),
+    photo: boris,
   },
   {
     firstName: 'Michal',
     lastName: 'Sojka',
     position: 'Lead Frontend Developer',
     email: 'xsojkam@stuba.sk',
-    photo: require('../assets/michal_fotka.jpg'),
+    photo: michal,
   },
   {
     firstName: 'Ján',
     lastName: 'Lang',
     position: 'Team Leader',
     email: 'xlang@stuba.sk',
-    photo: require('../assets/lang_fotka.jpeg'),
+    photo: lang,
   },
 ];
 
