@@ -42,7 +42,14 @@ const zapisniceItems = [
   },
 ];
 
-const dokumentyItems = [];
+const dokumentyItems = [
+  {
+    index: 1,
+    name: 'Metodika pre prácu na Frontende',
+    date: '15.10.2018',
+    link: require('../assets/pdf/Metodika pre prácu na Frontende.pdf'),
+  },
+];
 
 class DocumentPage extends Component {
   render() {
