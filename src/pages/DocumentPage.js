@@ -60,6 +60,15 @@ const dokumentyItems = [
   },
 ];
 
+const retrospektivyItems = [
+  {
+    index: 1,
+    name: 'Retrospektíva',
+    date: '22.10.2018',
+    link: require('../assets/pdf/r1.pdf'),
+  },
+];
+
 class DocumentPage extends Component {
   render() {
     return (
@@ -67,6 +76,10 @@ class DocumentPage extends Component {
         <Element name="zapisnice-table">
           <SectionHeader label="Zápisnice" />
           <Table headers={headers} items={zapisniceItems} />
+        </Element>
+        <Element name="retrospektivy-table">
+          <SectionHeader label="Retrospektívy" />
+          <Table headers={headers} items={retrospektivyItems} />
         </Element>
         <Element name="dokumenty-table">
           <SectionHeader label="Dokumenty" />
