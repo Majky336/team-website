@@ -63,7 +63,7 @@ const dokumentyItems = [
 const retrospektivyItems = [
   {
     index: 1,
-    name: 'Retrospektíva',
+    name: 'Retrospektíva č.1',
     date: '22.10.2018',
     link: require('../assets/pdf/r1.pdf'),
   },
