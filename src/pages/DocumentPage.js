@@ -47,7 +47,7 @@ const priruckyItems = [
     index: 1,
     name: 'Inštalačná príručka',
     date: '19 .10.2018',
-    link: require('../assets/pdf/Dilema_local_setup.pdf'),
+    link: require('../assets/pdf/p1.pdf'),
   },
 ];
 
@@ -56,7 +56,7 @@ const dokumentyItems = [
     index: 1,
     name: 'Metodika pre prácu na Frontende',
     date: '15.10.2018',
-    link: require('../assets/pdf/Metodika pre prácu na Frontende.pdf'),
+    link: require('../assets/pdf/m1.pdf'),
   },
 ];
 
