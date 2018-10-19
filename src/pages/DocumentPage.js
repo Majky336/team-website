@@ -42,6 +42,15 @@ const zapisniceItems = [
   },
 ];
 
+const priruckyItems = [
+  {
+    index: 1,
+    name: 'Inštalačná príručka',
+    date: '19 .10.2018',
+    link: require('../assets/pdf/Dilema_local_setup.pdf'),
+  },
+];
+
 const dokumentyItems = [
   {
     index: 1,
@@ -62,6 +71,10 @@ class DocumentPage extends Component {
         <Element name="dokumenty-table">
           <SectionHeader label="Dokumenty" />
           <Table headers={headers} items={dokumentyItems} />
+        </Element>
+        <Element name="prirucky-table">
+          <SectionHeader label="Príručky" />
+          <Table headers={headers} items={priruckyItems} />
         </Element>
       </div>
     );
