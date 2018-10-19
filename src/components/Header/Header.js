@@ -22,6 +22,12 @@ class Header extends Component {
       smooth: 'easeInOutQuart',
     });
 
+  scrollToPrirucky = () =>
+    scroller.scrollTo('prirucky-table', {
+      duration: 1000,
+      smooth: 'easeInOutQuart',
+    });
+
   renderNavItems = () => {
     const { location } = this.props;
     const { pathname } = location || {};
@@ -31,6 +37,7 @@ class Header extends Component {
         <Fragment>
           <NavButton label="Zápisnice" onClick={this.scrollToZapisnice} />
           <NavButton label="Dokumenty" onClick={this.scrollToDokumenty} />
+          <NavButton label="Príručky" onClick={this.scrollToPrirucky} />
           <NavItem pathname={pathname} to="/" label="Domov" id="about" />
         </Fragment>
       );
