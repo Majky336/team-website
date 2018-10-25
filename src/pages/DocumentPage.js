@@ -64,6 +64,12 @@ const dokumentyItems = [
     date: '15.10.2018',
     link: require('../assets/pdf/m1.pdf'),
   },
+  {
+    index: 2,
+    name: 'Metodika pre komunikáciu',
+    date: 'ľť.10.2018',
+    link: require('../assets/pdf/m2.pdf'),
+  },
 ];
 
 const retrospektivyItems = [
