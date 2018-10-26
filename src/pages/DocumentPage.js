@@ -70,6 +70,12 @@ const dokumentyItems = [
     date: '25.10.2018',
     link: require('../assets/pdf/m2.pdf'),
   },
+  {
+    index: 3,
+    name: 'Metodika pre manažment úloh',
+    date: '26.10.2018',
+    link: require('../assets/pdf/m3.pdf'),
+  },
 ];
 
 const retrospektivyItems = [
