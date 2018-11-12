@@ -11,7 +11,7 @@ class About extends Component {
   state = {};
 
   navigateToWebApp = () => {
-    window.location.href = 'http://team10-17.studenti.fiit.stuba.sk/dilema';
+    window.location.href = 'http://team18-18.studenti.fiit.stuba.sk/dilema';
   };
 
   static getDerivedStateFromProps(nextProps) {
