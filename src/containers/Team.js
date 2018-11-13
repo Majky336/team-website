@@ -92,7 +92,7 @@ class Team extends Component {
 
     if (pathname === '/team') {
       scroller.scrollTo('team', {
-        duration: 999,
+        duration: 1000,
         smooth: 'easeInOutQuart',
       });
     }
