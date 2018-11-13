@@ -101,7 +101,7 @@ const retrospektivyItems = [
     index: 2,
     name: 'Retrospektíva k šprintu č.2',
     date: '7.11.2018',
-    link: require('../assets/pdf/r1.pdf'),
+    link: require('../assets/pdf/r2.pdf'),
   },
 ];
 
