@@ -65,6 +65,7 @@ class About extends Component {
               interpretácie obsahu. Implementované prostredie podporí formovanie
               virtuálnych komunít doménovo špecifických a integráciu
               distribuovaného obsahu vzdelávania aj v medzinárodnom meradle.
+              Sneaky
             </p>
           </div>
           <Button label="Dilema" onClick={this.navigateToWebApp} />
