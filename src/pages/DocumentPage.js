@@ -46,6 +46,18 @@ const zapisniceItems = [
     date: '19.10.2018',
     link: require('../assets/pdf/z4.pdf'),
   },
+  {
+    index: 5,
+    name: '5. stretnutie',
+    date: '26.10.2018',
+    link: require('../assets/pdf/z5.pdf'),
+  },
+  {
+    index: 6,
+    name: '6. stretnutie',
+    date: '9.11.2018',
+    link: require('../assets/pdf/z6.pdf'),
+  },
 ];
 
 const priruckyItems = [
