@@ -64,8 +64,14 @@ const priruckyItems = [
   {
     index: 1,
     name: 'Inštalačná príručka',
-    date: '19 .10.2018',
+    date: '19.10.2018',
     link: require('../assets/pdf/p1.pdf'),
+  },
+  {
+    index: 2,
+    name: 'Manuál pre úpravu prezentačného webu',
+    date: '18.11.2018',
+    link: require('../assets/pdf/p2.pdf'),
   },
 ];
 
