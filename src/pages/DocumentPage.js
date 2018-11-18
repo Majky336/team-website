@@ -88,6 +88,12 @@ const dokumentyItems = [
     date: '26.10.2018',
     link: require('../assets/pdf/m3.pdf'),
   },
+  {
+    index: 4,
+    name: 'Metodika pre verziovanie kódu',
+    date: '18.11.2018',
+    link: require('../assets/pdf/m4.pdf'),
+  },
 ];
 
 const retrospektivyItems = [
