@@ -94,6 +94,12 @@ const dokumentyItems = [
     date: '18.11.2018',
     link: require('../assets/pdf/m4.pdf'),
   },
+  {
+    index: 5,
+    name: 'Metodika pre prácu s databázou',
+    date: '18.11.2018',
+    link: require('../assets/pdf/m5.pdf'),
+  },
 ];
 
 const retrospektivyItems = [
