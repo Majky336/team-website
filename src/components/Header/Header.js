@@ -35,6 +35,13 @@ class Header extends Component {
     });
   };
 
+  scrollToSprinty = () => {
+    scroller.scrollTo('sprinty-table', {
+      duration: 1000,
+      smooth: 'easeInOutQuart',
+    });
+  };
+
   renderNavItems = () => {
     const { location } = this.props;
     const { pathname } = location || {};
@@ -49,6 +56,7 @@ class Header extends Component {
           />
           <NavButton label="Dokumenty" onClick={this.scrollToDokumenty} />
           <NavButton label="Príručky" onClick={this.scrollToPrirucky} />
+          <NavButton label="Šprinty" onClick={this.scrollToSprinty} />
           <NavItem pathname={pathname} to="/" label="Domov" id="about" />
         </Fragment>
       );

@@ -123,6 +123,21 @@ const retrospektivyItems = [
   },
 ];
 
+const sprintyItems = [
+  {
+    index: 1,
+    name: 'Stav šprintu č.1',
+    date: '22.10.2018',
+    link: require('../assets/pdf/s1.pdf'),
+  },
+  {
+    index: 2,
+    name: 'Stav šprintu č.2',
+    date: '12.11.2018',
+    link: require('../assets/pdf/s2.pdf'),
+  },
+];
+
 class DocumentPage extends Component {
   render() {
     return (
@@ -142,6 +157,10 @@ class DocumentPage extends Component {
         <Element name="prirucky-table">
           <SectionHeader label="Príručky" />
           <Table headers={headers} items={priruckyItems} />
+        </Element>
+        <Element name="sprinty-table">
+          <SectionHeader label="Šprinty" />
+          <Table headers={headers} items={sprintyItems} />
         </Element>
       </div>
     );
