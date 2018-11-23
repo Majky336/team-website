@@ -117,6 +117,12 @@ const dokumentyItems = [
     date: '23.11.2018',
     link: require('../assets/pdf/m6.pdf'),
   },
+  {
+    index: 7,
+    name: 'Metodika pre code review',
+    date: '23.11.2018',
+    link: require('../assets/pdf/m7.pdf'),
+  },
 ];
 
 const retrospektivyItems = [
