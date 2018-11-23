@@ -121,6 +121,12 @@ const retrospektivyItems = [
     date: '7.11.2018',
     link: require('../assets/pdf/r2.pdf'),
   },
+  {
+    index: 3,
+    name: 'Retrospektíva k šprintu č.3',
+    date: '23.11.2018',
+    link: require('../assets/pdf/r3.pdf'),
+  },
 ];
 
 const sprintyItems = [
@@ -135,6 +141,12 @@ const sprintyItems = [
     name: 'Stav šprintu č.2',
     date: '12.11.2018',
     link: require('../assets/pdf/s2.pdf'),
+  },
+  {
+    index: 3,
+    name: 'Stav šprintu č.3',
+    date: '23.11.2018',
+    link: require('../assets/pdf/s3.pdf'),
   },
 ];
 
