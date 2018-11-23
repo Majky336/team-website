@@ -123,6 +123,18 @@ const dokumentyItems = [
     date: '23.11.2018',
     link: require('../assets/pdf/m7.pdf'),
   },
+  {
+    index: 8,
+    name: 'Dokumentácia k inžinierskemu dielu',
+    date: '23.11.2018',
+    link: require('../assets/pdf/d1.pdf'),
+  },
+  {
+    index: 9,
+    name: 'Dokumentácia k riadeniu projektu',
+    date: '23.11.2018',
+    link: require('../assets/pdf/d2.pdf'),
+  },
 ];
 
 const retrospektivyItems = [
