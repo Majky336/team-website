@@ -126,12 +126,18 @@ const dokumentyItems = [
   },
   {
     index: 8,
+    name: 'Metodika manažmentu chýb',
+    date: '23.11.2018',
+    link: require('../assets/pdf/m8.pdf'),
+  },
+  {
+    index: 9,
     name: 'Dokumentácia k inžinierskemu dielu',
     date: '23.11.2018',
     link: require('../assets/pdf/d1.pdf'),
   },
   {
-    index: 9,
+    index: 10,
     name: 'Dokumentácia k riadeniu projektu',
     date: '23.11.2018',
     link: require('../assets/pdf/d2.pdf'),
