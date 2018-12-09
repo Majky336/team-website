@@ -127,7 +127,7 @@ const dokumentyItems = [
   {
     index: 8,
     name: 'Metodika manažmentu chýb',
-    date: '23.11.2018',
+    date: '01.12.2018',
     link: require('../assets/pdf/m8.pdf'),
   },
   {
