@@ -57,12 +57,13 @@ const zapisniceItems = [
     name: '6. stretnutie',
     date: '9.11.2018',
     link: require('../assets/pdf/z6.pdf'),
-  },  {
-      index: 7,
-      name: '7. stretnutie',
-      date: '23.11.2018',
-      link: require('../assets/pdf/z7.pdf'),
-    },
+  },
+  {
+    index: 7,
+    name: '7. stretnutie',
+    date: '23.11.2018',
+    link: require('../assets/pdf/z7.pdf'),
+  },
 ];
 
 const priruckyItems = [
