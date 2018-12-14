@@ -55,7 +55,7 @@ const zapisniceItems = [
   {
     index: 6,
     name: '6. stretnutie',
-    date: '9.11.2018',
+    date: '09.11.2018',
     link: require('../assets/pdf/z6.pdf'),
   },
   {
@@ -79,7 +79,7 @@ const zapisniceItems = [
   {
     index: 10,
     name: '10. stretnutie',
-    date: '6.12.2018',
+    date: '06.12.2018',
     link: require('../assets/pdf/z10.pdf'),
   },
 ];
@@ -187,6 +187,18 @@ const retrospektivyItems = [
     date: '23.11.2018',
     link: require('../assets/pdf/r3.pdf'),
   },
+  {
+    index: 4,
+    name: 'Retrospektíva k šprintu č.4',
+    date: '07.12.2018',
+    link: require('../assets/pdf/r4.pdf'),
+  },
+  {
+    index: 5,
+    name: 'Retrospektíva k šprintu č.5',
+    date: '14.12.2018',
+    link: require('../assets/pdf/r5.pdf'),
+  },
 ];
 
 const sprintyItems = [
@@ -207,6 +219,18 @@ const sprintyItems = [
     name: 'Stav šprintu č.3',
     date: '23.11.2018',
     link: require('../assets/pdf/s3.pdf'),
+  },
+  {
+    index: 4,
+    name: 'Stav šprintu č.4',
+    date: '07.12.2018',
+    link: require('../assets/pdf/s4.pdf'),
+  },
+  {
+    index: 5,
+    name: 'Stav šprintu č.5',
+    date: '14.12.2018',
+    link: require('../assets/pdf/s5.pdf'),
   },
 ];
 
