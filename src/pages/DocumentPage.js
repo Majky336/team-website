@@ -61,8 +61,26 @@ const zapisniceItems = [
   {
     index: 7,
     name: '7. stretnutie',
-    date: '23.11.2018',
+    date: '16.11.2018',
     link: require('../assets/pdf/z7.pdf'),
+  },
+  {
+    index: 8,
+    name: '8. stretnutie',
+    date: '23.11.2018',
+    link: require('../assets/pdf/z8.pdf'),
+  },
+  {
+    index: 9,
+    name: '9. stretnutie',
+    date: '30.11.2018',
+    link: require('../assets/pdf/z9.pdf'),
+  },
+  {
+    index: 10,
+    name: '10. stretnutie',
+    date: '6.12.2018',
+    link: require('../assets/pdf/z10.pdf'),
   },
 ];
 
@@ -132,12 +150,18 @@ const dokumentyItems = [
   },
   {
     index: 9,
+    name: 'Metodika pre riadenie návrhu',
+    date: '09.12.2018',
+    link: require('../assets/pdf/m9.pdf'),
+  },
+  {
+    index: 10,
     name: 'Dokumentácia k inžinierskemu dielu',
     date: '23.11.2018',
     link: require('../assets/pdf/d1.pdf'),
   },
   {
-    index: 10,
+    index: 11,
     name: 'Dokumentácia k riadeniu projektu',
     date: '23.11.2018',
     link: require('../assets/pdf/d2.pdf'),
