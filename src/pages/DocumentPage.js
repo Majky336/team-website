@@ -82,6 +82,54 @@ const zapisniceItems = [
     date: '06.12.2018',
     link: require('../assets/pdf/z10.pdf'),
   },
+  {
+    index: 11,
+    name: '12. stretnutie',
+    date: '11.02.2019',
+    link: require('../assets/pdf/z12.pdf'),
+  },
+  {
+    index: 12,
+    name: '13. stretnutie',
+    date: '18.02.2019',
+    link: require('../assets/pdf/z13.pdf'),
+  },
+  {
+    index: 13,
+    name: '14. stretnutie',
+    date: '25.02.2019',
+    link: require('../assets/pdf/z14.pdf'),
+  },
+  {
+    index: 14,
+    name: '15. stretnutie',
+    date: '04.03.2019',
+    link: require('../assets/pdf/z15.pdf'),
+  },
+  {
+    index: 15,
+    name: '16. stretnutie',
+    date: '11.03.2019',
+    link: require('../assets/pdf/z16.pdf'),
+  },
+  {
+    index: 16,
+    name: '17. stretnutie',
+    date: '18.03.2019',
+    link: require('../assets/pdf/z17.pdf'),
+  },
+  {
+    index: 17,
+    name: '18. stretnutie',
+    date: '25.03.2019',
+    link: require('../assets/pdf/z18.pdf'),
+  },
+  {
+    index: 18,
+    name: '19. stretnutie',
+    date: '01.04.2019',
+    link: require('../assets/pdf/z19.pdf'),
+  },
 ];
 
 const priruckyItems = [
@@ -157,7 +205,7 @@ const dokumentyItems = [
   {
     index: 10,
     name: 'Dokumentácia k inžinierskemu dielu',
-    date: '23.11.2018',
+    date: '15.04.2018',
     link: require('../assets/pdf/d1.pdf'),
   },
   {
@@ -199,6 +247,24 @@ const retrospektivyItems = [
     date: '14.12.2018',
     link: require('../assets/pdf/r5.pdf'),
   },
+  {
+    index: 6,
+    name: 'Retrospektíva k šprintu č.6',
+    date: '25.02.2019',
+    link: require('../assets/pdf/r6.pdf'),
+  },
+  {
+    index: 7,
+    name: 'Retrospektíva k šprintu č.7',
+    date: '11.03.2019',
+    link: require('../assets/pdf/r7.pdf'),
+  },
+  {
+    index: 8,
+    name: 'Retrospektíva k šprintu č.8',
+    date: '25.03.2019',
+    link: require('../assets/pdf/r8.pdf'),
+  },
 ];
 
 const sprintyItems = [
@@ -231,6 +297,24 @@ const sprintyItems = [
     name: 'Stav šprintu č.5',
     date: '14.12.2018',
     link: require('../assets/pdf/s5.pdf'),
+  },
+  {
+    index: 6,
+    name: 'Stav šprintu č.6',
+    date: '25.02.2019',
+    link: require('../assets/pdf/s6.pdf'),
+  },
+  {
+    index: 7,
+    name: 'Stav šprintu č.7',
+    date: '11.03.2019',
+    link: require('../assets/pdf/s7.pdf'),
+  },
+  {
+    index: 8,
+    name: 'Stav šprintu č.8',
+    date: '25.03.2019',
+    link: require('../assets/pdf/s8.pdf'),
   },
 ];
 
