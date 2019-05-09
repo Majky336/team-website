@@ -145,6 +145,12 @@ const priruckyItems = [
     date: '18.11.2018',
     link: require('../assets/pdf/p2.pdf'),
   },
+  {
+    index: 3,
+    name: 'Používateľská príručka',
+    date: '15.04.2018',
+    link: require('../assets/pdf/p3.pdf'),
+  },
 ];
 
 const dokumentyItems = [
@@ -265,6 +271,12 @@ const retrospektivyItems = [
     date: '25.03.2019',
     link: require('../assets/pdf/r8.pdf'),
   },
+  {
+    index: 9,
+    name: 'Retrospektíva k šprintu č.9',
+    date: '08.04.2019',
+    link: require('../assets/pdf/r9.pdf'),
+  },
 ];
 
 const sprintyItems = [
@@ -315,6 +327,18 @@ const sprintyItems = [
     name: 'Stav šprintu č.8',
     date: '25.03.2019',
     link: require('../assets/pdf/s8.pdf'),
+  },
+  {
+    index: 9,
+    name: 'Stav šprintu č.9',
+    date: '08.04.2019',
+    link: require('../assets/pdf/s9.pdf'),
+  },
+  {
+    index: 10,
+    name: 'Stav šprintu č.10',
+    date: '15.04.2019',
+    link: require('../assets/pdf/s10.pdf'),
   },
 ];
 
